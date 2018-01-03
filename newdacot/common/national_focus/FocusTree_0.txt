@@ -9,11 +9,27 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = 外交之路
+		id = 外交发展之路
 		icon = GFX_goal_anschluss
 		cost = 0.00
-		x = 5
+		x = 3
 		y = 0
+
+	}
+	focus = {
+		id = 经验总结
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 0.00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = 动员学生研究
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 0.00
+		x = 14
+		y = 5
 
 	}
 	focus = {
@@ -21,7 +37,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		cost = 10.00
 		prerequisite = {
-			focus = 外交之路
+			focus = 外交发展之路
 		}
 		mutually_exclusive = {
 			focus = 拒绝冈比亚的邀请
@@ -147,72 +163,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 拒绝冈比亚的邀请
-		icon = GFX_goal_anti_comintern_pact
-		cost = 10.00
-		prerequisite = {
-			focus = 外交之路
-		}
-		mutually_exclusive = {
-			focus = 接受冈比亚的邀请
-			focus = 来自北约的帮助
-		}
-		x = 5
-		y = 1
-
-	}
-	focus = {
-		id = 选择与美国合作
-		icon = GFX_goal_generic_improve_relations
-		cost = 10.00
-		prerequisite = {
-			focus = 拒绝冈比亚的邀请
-		}
-		mutually_exclusive = {
-			focus = 选择与日本合作
-		}
-		x = 4
-		y = 2
-
-	}
-	focus = {
-		id = 寻求美国庇护
-		icon = GFX_goal_generic_improve_relations
-		cost = 0.00
-		prerequisite = {
-			focus = 选择与美国合作
-		}
-		x = 4
-		y = 3
-
-	}
-	focus = {
-		id = 美国工业援助
-		icon = GFX_goal_generic_production
-		cost = 10.00
-		prerequisite = {
-			focus = 寻求美国庇护
-		}
-		x = 4
-		y = 4
-
-	}
-	focus = {
-		id = 选择与日本合作
-		icon = GFX_goal_generic_improve_relations
-		cost = 0.00
-		prerequisite = {
-			focus = 拒绝冈比亚的邀请
-		}
-		mutually_exclusive = {
-			focus = 选择与美国合作
-		}
-		x = 6
-		y = 2
-
-	}
-	focus = {
-		id = 发达致富
+		id = 发展致富
 		icon = GFX_goal_generic_war_with_comintern
 		cost = 10.00
 		prerequisite = {
@@ -224,17 +175,371 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 来自北约的帮助
-		icon = GFX_goal_anschluss
-		cost = 0.00
+		id = 拒绝冈比亚的邀请
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
 		prerequisite = {
-			focus = 外交之路
+			focus = 外交发展之路
 		}
 		mutually_exclusive = {
+			focus = 接受冈比亚的邀请
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = 发展自己的工业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
 			focus = 拒绝冈比亚的邀请
 		}
-		x = 9
+		mutually_exclusive = {
+			focus = 外国投资工业
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = 鼓励创业
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0.00
+		prerequisite = {
+			focus = 发展自己的工业
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = 创建国家企业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 鼓励创业
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = 大力发展铁路工程
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = 创建国家企业
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = 战时经济体制
+		icon = GFX_goal_generic_demand_territory
+		cost = 0.00
+		prerequisite = {
+			focus = 大力发展铁路工程
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = 外国投资工业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 拒绝冈比亚的邀请
+		}
+		mutually_exclusive = {
+			focus = 发展自己的工业
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = 外国企业家
+		icon = GFX_goal_generic_air_production
+		cost = 0.00
+		prerequisite = {
+			focus = 外国投资工业
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = 夺取工厂所有权
+		icon = GFX_goal_generic_political_pressure
+		cost = 0.00
+		prerequisite = {
+			focus = 外国企业家
+		}
+		mutually_exclusive = {
+			focus = 向外国企业家购买工厂所有权。
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = 向外国企业家购买工厂所有权。
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0.00
+		prerequisite = {
+			focus = 外国企业家
+		}
+		mutually_exclusive = {
+			focus = 夺取工厂所有权
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = 稳定这些工厂
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 夺取工厂所有权
+		}
+		prerequisite = {
+			focus = 向外国企业家购买工厂所有权。
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = 夺取外国银行资产
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 0.00
+		prerequisite = {
+			focus = 稳定这些工厂
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = 民族工业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 战时经济体制
+			focus = 夺取外国银行资产
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = 总结陆军经验
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 0.00
+		prerequisite = {
+			focus = 经验总结
+		}
+		x = 11
 		y = 1
+
+	}
+	focus = {
+		id = 陆军军事研究
+		icon = GFX_goal_generic_army_doctrines
+		cost = 0.00
+		prerequisite = {
+			focus = 总结陆军经验
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = 总结空军经验
+		icon = GFX_goal_generic_air_fighter
+		cost = 0.00
+		prerequisite = {
+			focus = 经验总结
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = 空军科研
+		icon = GFX_goal_generic_air_fighter2
+		cost = 0.00
+		prerequisite = {
+			focus = 总结空军经验
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = 总结海军经验
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 0.00
+		prerequisite = {
+			focus = 经验总结
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id =  海军整理
+		icon = GFX_goal_generic_navy_battleship
+		cost = 0.00
+		prerequisite = {
+			focus = 总结海军经验
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = 军事建筑
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 陆军军事研究
+		}
+		prerequisite = {
+			focus =  海军整理
+		}
+		prerequisite = {
+			focus = 空军科研
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = 建立军校
+		icon = GFX_goal_rhineland
+		cost = 0.00
+		prerequisite = {
+			focus = 军事建筑
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = 军事科技
+		icon = GFX_focus_research
+		cost = 0.00
+		prerequisite = {
+			focus = 建立军校
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = 军事宣传化
+		icon = GFX_goal_generic_propaganda
+		cost = 0.00
+		prerequisite = {
+			focus = 军事建筑
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = 发展武器装备
+		icon = GFX_goal_generic_army_artillery
+		cost = 0.00
+		prerequisite = {
+			focus = 军事宣传化
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = 工业国家
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		prerequisite = {
+			focus = 发展致富
+			focus = 民族工业
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = 海空科研
+		icon = GFX_goal_generic_navy_carrier
+		cost = 0.00
+		prerequisite = {
+			focus = 军事宣传化
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = 新式武器科研
+		icon = GFX_focus_rocketry
+		cost = 0.00
+		prerequisite = {
+			focus = 军事科技
+		}
+		prerequisite = {
+			focus = 发展武器装备
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = 发展科研院校
+		icon = GFX_goal_generic_position_armies
+		cost = 0.00
+		prerequisite = {
+			focus = 动员学生研究
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = 更多海空研究
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 0.00
+		prerequisite = {
+			focus = 海空科研
+		}
+		prerequisite = {
+			focus = 动员学生研究
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = 强大的军队
+		icon = GFX_goal_generic_small_arms
+		cost = 0.00
+		prerequisite = {
+			focus = 新式武器科研
+		}
+		prerequisite = {
+			focus = 发展科研院校
+		}
+		prerequisite = {
+			focus = 更多海空研究
+		}
+		x = 13
+		y = 7
 
 	}
 }
