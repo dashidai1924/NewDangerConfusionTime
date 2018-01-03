@@ -1,0 +1,240 @@
+focus_tree = {
+	id = FocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+	focus = {
+		id = 外交之路
+		icon = GFX_goal_anschluss
+		cost = 0.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = 接受冈比亚的邀请
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = 外交之路
+		}
+		mutually_exclusive = {
+			focus = 拒绝冈比亚的邀请
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = 和冈比亚密切合作
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = 接受冈比亚的邀请
+		}
+		mutually_exclusive = {
+			focus = 虚心假意的合作
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = 和冈比亚一起发展工业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 和冈比亚密切合作
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = 和冈比亚一起组成军事同盟
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = 和冈比亚一起发展工业
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = 让他们勤劳起来
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = 和冈比亚一起组成军事同盟
+		}
+		x = 0
+		y = 5
+
+	}
+	focus = {
+		id = 帮助他们夺取土地
+		icon = GFX_goal_generic_military_deal
+		cost = 0.00
+		prerequisite = {
+			focus = 让他们勤劳起来
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = 虚心假意的合作
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0.00
+		prerequisite = {
+			focus = 接受冈比亚的邀请
+		}
+		mutually_exclusive = {
+			focus = 和冈比亚密切合作
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = 夺取冈比亚的工业
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = 虚心假意的合作
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = 从现在开始拒绝合作
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = 夺取冈比亚的工业
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = 让他们懒惰下去
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = 从现在开始拒绝合作
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = 夺取他们的土地
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = 让他们懒惰下去
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = 拒绝冈比亚的邀请
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = 外交之路
+		}
+		mutually_exclusive = {
+			focus = 接受冈比亚的邀请
+			focus = 来自北约的帮助
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = 选择与美国合作
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = 拒绝冈比亚的邀请
+		}
+		mutually_exclusive = {
+			focus = 选择与日本合作
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = 寻求美国庇护
+		icon = GFX_goal_generic_improve_relations
+		cost = 0.00
+		prerequisite = {
+			focus = 选择与美国合作
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = 美国工业援助
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = 寻求美国庇护
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = 选择与日本合作
+		icon = GFX_goal_generic_improve_relations
+		cost = 0.00
+		prerequisite = {
+			focus = 拒绝冈比亚的邀请
+		}
+		mutually_exclusive = {
+			focus = 选择与美国合作
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = 发达致富
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = 帮助他们夺取土地
+			focus = 夺取他们的土地
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = 来自北约的帮助
+		icon = GFX_goal_anschluss
+		cost = 0.00
+		prerequisite = {
+			focus = 外交之路
+		}
+		mutually_exclusive = {
+			focus = 拒绝冈比亚的邀请
+		}
+		x = 9
+		y = 1
+
+	}
+}
