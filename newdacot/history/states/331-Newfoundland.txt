@@ -1,0 +1,28 @@
+
+state={
+	id=331
+	name="STATE_331"
+	manpower = 479000
+	
+	state_category = rural
+	
+	resources = {
+		oil = 15
+		steel = 12
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			12505 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = CAN
+	}
+
+	provinces={
+		7758 7788 12505 12680 12698 
+	}
+}
