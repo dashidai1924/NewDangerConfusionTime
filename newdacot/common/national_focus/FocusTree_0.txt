@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = 外交发展之路
+		id = chi_aaa
 		icon = GFX_goal_anschluss
 		cost = 0.00
 		x = 3
@@ -37,7 +37,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		cost = 10.00
 		prerequisite = {
-			focus = 外交发展之路
+			focus = chi_aaa
 		}
 		mutually_exclusive = {
 			focus = 拒绝冈比亚的邀请
@@ -179,7 +179,7 @@ focus_tree = {
 		icon = GFX_goal_anti_comintern_pact
 		cost = 10.00
 		prerequisite = {
-			focus = 外交发展之路
+			focus = chi_aaa
 		}
 		mutually_exclusive = {
 			focus = 接受冈比亚的邀请
