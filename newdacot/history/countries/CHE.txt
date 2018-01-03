@@ -1,0 +1,6 @@
+﻿add_namespace = {
+	name = "che_unit_leader"
+	type = unit_leader
+}
+
+

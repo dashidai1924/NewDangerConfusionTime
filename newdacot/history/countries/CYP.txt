@@ -1,0 +1,32 @@
+﻿add_namespace = {
+	name = "cyp_unit_leader"
+	type = unit_leader
+}
+
+create_field_marshal = {
+	name = "Geórgios Basiakoúlis"
+	picture = "Portrait_Georgios_Basiakoulis.dds"
+	traits = { old_guard offensive_doctrine fast_planner }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Ilías Leontáris"
+	picture = "Portrait_Ilias_Leontaris.dds"
+	traits = { panzer_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Dimítrios Agorákis"
+	picture = "Portrait_Dimitrios_Agorakis.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Andréas Markídis"
+	picture = "Portrait_Andreas_Markidis.dds"
+	traits = { fortress_buster }
+	skill = 1
+}

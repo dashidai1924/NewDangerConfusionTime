@@ -1,0 +1,158 @@
+﻿l_english:
+ cold_war_ship_design:3 "冷战船只设计"
+ cold_war_ship_design_desc:3 "吸取了二战时的教训，我们应该考虑一下适应未来战争的船只设计。"
+ carrier_nuclear_reactor:3 "航母核反应堆"
+ carrier_nuclear_reactor_desc:3 "航母的航程是有限的。通过安装核反应堆来提供动力，我们可以更高效的统治公海。"
+ carrier_advanced_ramp_system:3 "先进的航母坡道系统"
+ carrier_advanced_ramp_system_desc:3 "航母上的起飞跑道过于拥堵是一个严重的问题。通过在跑道末端安装一个坡道系统，我们可以在夹板上存放更多的舰载机。"
+ carrier_catapult:3 "航母弹射器"
+ carrier_catapult_desc:3 "坡道系统曾在过去为航母立下汗马功劳，而如今我们的科学家提出了一种新的理论。他们认为通过安装一个弹射系统，航母可以容下更多的舰载机。"
+ submarine_nuclear_reactor:3 "潜艇核反应堆"
+ submarine_nuclear_reactor_desc:3 "如果我们可以在未来的潜艇上安装核反应堆，那么就可以极大地增加其航程。"
+ submarine_cold_war_torpedo:3 "冷战鱼雷"
+ submarine_modern_torpedo:3 "现代鱼雷"
+ submarine_future_torpedo:3 "未来鱼雷"
+ frigate_1:3 "护卫舰 I"
+ frigate_2:3 "护卫舰 II"
+ frigate_3:3 "护卫舰 III"
+ frigate_4:3 "护卫舰 IV"
+ frigate_5:3 "护卫舰 V"
+ frigate_6:3 "护卫舰 VI"
+ corvette_1:3 "轻巡洋舰 I"
+ corvette_2:3 "轻巡洋舰 II"
+ corvette_3:3 "轻巡洋舰 III"
+ corvette_4:3 "轻巡洋舰 IV"
+ corvette_5:3 "轻巡洋舰 V"
+ corvette_6:3 "轻巡洋舰 VI"
+ destroyer_1:3 "驱逐舰 I" #1960
+ destroyer_2:3 "驱逐舰 II" #1980
+ destroyer_3:3 "驱逐舰 III" #2000
+ destroyer_4:3 "驱逐舰 IV" #2008
+ destroyer_5:3 "驱逐舰 V" #2020
+ destroyer_6:3 "驱逐舰 VI" #2030
+ light_cruiser_1:3 "巡逻舰 I" #1960
+ light_cruiser_2:3 "巡逻舰 II" #1980
+ light_cruiser_3:3 "巡逻舰 III" #2002
+ light_cruiser_4:3 "巡逻舰 IV" #2012
+ light_cruiser_5:3 "巡逻舰 V" #2025
+ light_cruiser_6:3 "巡逻舰 VI" #2030
+ missile_cruiser_1:3 "导弹巡洋舰 I" #1960
+ missile_cruiser_2:3 "导弹巡洋舰 II" #2000
+ missile_cruiser_3:3 "导弹巡洋舰 III" #2006
+ missile_cruiser_4:3 "导弹巡洋舰 IV" #2010
+ missile_cruiser_5:3 "导弹巡洋舰 V" #2020
+ missile_cruiser_6:3 "导弹巡洋舰 VI" #2030
+ carrier_1:3 "航空母舰 I" #1960
+ carrier_2:3 "航空母舰 II" #1980
+ carrier_3:3 "航空母舰 III" #2004
+ carrier_4:3 "航空母舰 IV" #2012
+ carrier_5:3 "航空母舰 V" #2018
+ carrier_6:3 "航空母舰 VI" #2030
+ submarine_1:3 "潜艇 I" #1960
+ submarine_2:3 "潜艇 II" #1980
+ submarine_3:3 "潜艇 III" #2006
+ submarine_4:3 "潜艇 IV" #2014
+ submarine_5:3 "潜艇 V" #2025
+ submarine_6:3 "潜艇 VI" #2030
+ ABK_corvette_1:3 "轻巡洋舰 I"
+ ALB_corvette_1:3 "轻巡洋舰 I"
+ ALB_corvette_2:3 "轻巡洋舰 II"
+ ALB_corvette_3:3 "轻巡洋舰 III"
+ ALG_corvette_2:3 "轻巡洋舰 II"
+ ALG_frigate_1:3 "护卫舰 I"
+ ALG_frigate_2:3 "护卫舰 II"
+ ALG_submarine_1:3 "潜艇 I"
+ ALG_submarine_2:3 "潜艇 II"
+ ANG_corvette_1:3 "轻巡洋舰 I"
+ ANG_corvette_2:3 "轻巡洋舰 II"
+ ANG_frigate_1:3 "护卫舰 I"
+ ANG_frigate_2:3 "护卫舰 II"
+ ANT_corvette_1:3 "轻巡洋舰 I"
+ ARG_corvette_1:3 "巴拉德罗级"
+ ARG_corvette_2:3 "迪士蒂安多瓦级"
+ ARG_destroyer_1:3 "赫拉克勒斯级"
+ ARG_destroyer_2:3 "布朗海军上将级"
+ ARG_frigate_2:3 "埃斯波拉级"
+ AST_corvette_1:3 "翁级"
+ AST_corvette_2:3 "阿米代尔级"
+ AST_frigate_2:3 "澳新军团级"
+ AST_frigate_3:3 "阿德莱德级"
+ AST_submarine_2:3 "柯林斯级"
+ BEL_corvette_1:3 "三色旗级"
+ BEL_corvette_2:3 "卡斯托级"
+ BEL_frigate_1:3 "卡雷尔·多尔曼级"
+ BHM_corvette_1:3 "达曼斯坦级"
+ BHM_corvette_2:3 "巴哈马级"
+ BNG_corvette_1:3 "博多河级"
+ BNG_corvette_2:3 "不屈级"
+ BNG_corvette_3:3 "056型"
+ BNG_submarine_3:3 "明级"
+ DEN_frigate_1:3 "忒提斯级"
+ DEN_frigate_2:3 "阿布萨隆级"
+ DEN_frigate_3:3 "艾弗·哈费级"
+ GER_destroyer_1:3 "汉堡级"
+ GER_destroyer_2:3 "勃兰登堡级"
+ GER_destroyer_3:3 "萨克森级"
+ GER_destroyer_4:3 "巴登-符腾堡级"
+ GER_destroyer_5:3 "巴伐利亚级"
+ GER_destroyer_6:3 "威斯特法伦级"
+ GER_light_cruiser_1:3 "美洲虎级"
+ GER_light_cruiser_2:3 "虎级"
+ GER_light_cruiser_3:3 "美洲狮级"
+ GER_light_cruiser_4:3 "美洲狮级"
+ GER_light_cruiser_5:3 "狮级"
+ GER_light_cruiser_6:3 "虎狮级"
+ GER_missile_cruiser_1:3 "柏林级"
+ GER_missile_cruiser_2:3 "斯图加特级"
+ GER_missile_cruiser_3:3 "巴巴罗萨级"
+ GER_missile_cruiser_4:3 "威廉级"
+ GER_missile_cruiser_5:3 "路德级"
+ GER_missile_cruiser_6:3 "古滕堡级"
+ GER_carrier_1:3 "施特雷泽曼级"
+ GER_carrier_2:3 "阿登纳级"
+ GER_carrier_3:3 "祖国级"
+ GER_carrier_4:3 "皇帝级"
+ GER_carrier_5:3 "欧罗巴级"
+ GER_carrier_6:3 "德意志级"
+ GER_submarine_1:3 "U9级"
+ GER_submarine_2:3 "U13级"
+ GER_submarine_3:3 "U31级"
+ GER_submarine_4:3 "深海猎人级"
+ GER_submarine_5:3 "死亡使者级"
+ GER_submarine_6:3 "勇敢级"
+ USA_destroyer_1:3 "查尔斯 F.亚当斯级"
+ USA_destroyer_2:3 "斯普鲁恩斯级"
+ USA_destroyer_3:3 "阿利·伯克级"
+ USA_destroyer_4:3 "朱姆沃尔特级"
+ USA_destroyer_5:3 "华盛顿级"
+ USA_destroyer_6:3 "加利福尼亚级"
+ USA_frigate_1:3 "布鲁克级"
+ USA_frigate_2:3 "佩里级"
+ USA_frigate_3:3 "自由级"
+ USA_frigate_4:3 "护卫舰 IV"
+ USA_frigate_5:3 "独立级"
+ USA_frigate_6:3 "护卫舰 VI"
+ USA_light_cruiser_1:3 "飞马级"
+ USA_light_cruiser_2:3 "暴风级"
+ USA_light_cruiser_3:3 "龙卷风级"
+ USA_light_cruiser_4:3 "飓风级"
+ USA_light_cruiser_5:3 "雷暴级"
+ USA_light_cruiser_6:3 "海啸级"
+ USA_missile_cruiser_1:3 "英雄级"
+ USA_missile_cruiser_2:3 "提康德罗加级"
+ USA_missile_cruiser_3:3 "CG(X)级"
+ USA_missile_cruiser_4:3 "迈阿密级"
+ USA_missile_cruiser_5:3 "休斯顿级"
+ USA_missile_cruiser_6:3 "尤利西斯级"
+ USA_carrier_1:3 "小鹰级"
+ USA_carrier_2:3 "尼米兹级"
+ USA_carrier_3:3 "福特级"
+ USA_carrier_4:3 "企业级"
+ USA_carrier_5:3 "罗斯福级"
+ USA_carrier_6:3 "波多黎各级"
+ USA_submarine_1:3 "詹姆斯·麦迪逊级"
+ USA_submarine_2:3 "洛杉矶级"
+ USA_submarine_3:3 "弗吉尼亚级"
+ USA_submarine_4:3 "德克萨斯级"
+ USA_submarine_5:3 "达科塔级"
+ USA_submarine_6:3 "钢铁雄心级"

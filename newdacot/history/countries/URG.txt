@@ -1,0 +1,95 @@
+﻿add_namespace = {
+	name = "urg_unit_leader"
+	type = unit_leader
+}
+
+create_field_marshal = {
+	name = "Guido Manini Ríos"
+	picture = "Portrait_Guido_Manini_Rios.dds"
+	traits = { organisational_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Washington Roberto Martínez Angelucci"
+	picture = "Portrait_Washington_Angelucci.dds"
+	traits = { commando }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Carlos Humberto Loitey"
+	picture = "Portrait_Carlos_Loitey.dds"
+	traits = { trickster }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Marcos Gallardo"
+	picture = "Portrait_Marcos_Gallardo.dds"
+	traits = { urban_assault_specialist }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Alejandro Córdoba"
+	picture = "Portrait_Alejandro_Cordoba.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Helio Alfonso Bonilla"
+	picture = "Portrait_Helio_Alfonso_Bonilla.dds"
+	traits = { hill_fighter }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Luis Abilleira"
+	picture = "Portrait_Luis_Abilleira.dds"
+	traits = { jungle_rat }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugo José Iglesias"
+	picture = "Portrait_Hugo_Iglesias.dds"
+	traits = { fortress_buster }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Fernando Suárez"
+	picture = "Portrait_Fernando_Suarez.dds"
+	traits = { panzer_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Jorge Haboosh"
+	picture = "Portrait_Jorge_Haboosh.dds"
+	traits = { ranger }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "José Luis Oliveira"
+	picture = "Portrait_Jose_Luis_Oliveira.dds"
+	traits = { ranger }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Leonardo Gustavo Alfonso Chiappara"
+	picture = "Portrait_Leonardo_Chiappara.dds"
+	traits = { blockade_runner }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Ricardo Giambruno"
+	picture = "Portrait_Ricardo_Giambruno.dds"
+	traits = { superior_tactician }
+	skill = 1
+}
